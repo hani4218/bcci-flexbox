@@ -1,0 +1,129 @@
+.logo{
+    color: rgb(8, 8, 8);
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar .nav-list .nav-items{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.nav-bar .nav-list .nav-items .nav-link{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-bar .nav-list .nav-items .nav-link:hover{
+    color: bisque;
+    transition: .3s;
+}
+.main-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-desc .main-desc-left{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.main-desc .main-desc-right{
+    flex-shrink: 0;
+    width: 50%;
+}
+.welcome
+{
+    color: #0f60c9;
+    font-weight: 900;
+    font-size:48px;
+}
+button{
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: bisque;
+    color:rebeccapurple;
+    transition: .3s;
+}
+.image img{
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 275px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.captains{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 40px;
+    color: #0f60c9;
+}
+.wining-capt{
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    display: flex;
+    justify-content: space-between;
+}
+.quotes{
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: light italic;
+    border-color: black;
+    
+    justify-content: center;
+    padding-top: 50px;
+}
+.sub{
+    display: flex;
+    background-color: #e5e7eb;
+    padding-top: 0px;
+    justify-content: flex-end;
+    padding-right: 50px;
+    
+}
+.sub .author{
+    font-weight: bold;
+    font-size: 36px;
+    font-family: light italic;
+}
+.sign-up{
+    display: flex;
+    background-color: #6f9cd5;
+    justify-content: center;
+    padding: 10px;
+}
+.sign-up .text{
+    padding-right: 100px;
+}
+.sign-up .sign-up-button{
+    padding-top: 28px;
+}
+.support{
+    font-weight: bold;
+    font-size: 20px;
+}
+.copyrights{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    font-size: 10px;
+}
+.c{
+    height: 10px;
+    width: 10px;
+    
+}
